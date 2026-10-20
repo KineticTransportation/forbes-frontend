@@ -10,15 +10,15 @@ const SITE = "https://www.forbeslogistix.com";
 // every page changed on every deploy; then omitted entirely. Honest dates
 // help Google prioritize recrawling pages that actually changed.)
 const MODIFIED = {
-  home: "2026-06-11", // recruiting content pass: pay story, hero CTA, proof bar
+  home: "2026-09-04", // copy sweep (em dashes, CTA wording) + reefer line
   careers: "2026-09-04", // OO section: Mississippi wording + MS landing-page cross-link
-  reefer: "2026-07-13", // Dallas reefer division launched
+  reefer: "2026-09-04", // copy sweep + position-label wording
   flatbedOoMs: "2026-09-04", // Mississippi flatbed owner-operator landing page launched
-  about: "2026-06-11", // recruiting CTA strip added
-  operations: "2026-06-11", // pay line + recruiting CTA strip
-  contact: "2026-06-10", // form validation + accessibility pass
-  terms: "2026-04-25", // effective date
-  privacy: "2026-04-25", // effective date
+  about: "2026-09-04", // founder facts corrected + copy sweep
+  operations: "2026-09-04", // copy sweep (CTA wording)
+  contact: "2026-09-04", // copy sweep + LocalBusiness name (the 2026-10-11 honeypot is not a content change)
+  terms: "2026-04-25", // effective date (2026-09-04 punctuation-only sweep deliberately not counted)
+  privacy: "2026-04-25", // effective date (2026-09-04 punctuation-only sweep deliberately not counted)
 };
 
 export default function sitemap() {
